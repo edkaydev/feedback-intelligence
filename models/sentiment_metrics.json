@@ -1,0 +1,15 @@
+{
+  "data": "datasets/Merged_All_Feedback.csv",
+  "text_column": "customer_text",
+  "label_column": "sentiment",
+  "bank_only": false,
+  "rows": 10340,
+  "labels": {
+    "Pos": 5191,
+    "Neg": 5129,
+    "Neutral": 20
+  },
+  "accuracy": 0.9627659574468085,
+  "macro_f1": 0.832760376878024,
+  "model": "models/sentiment_model.joblib"
+}
